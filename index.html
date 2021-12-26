@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Scientific Gym</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        input[type=text],select, input[type=email], input[type=number], label{
+            border-radius: 4px;
+            padding: 8px 7px;
+            margin: 15px 11px;
+            color: rgb(248, 155, 6);
+            border: 2px solid rgb(33, 224, 241);
+        }
+        
+        header h1{
+            text-decoration: underline;
+        }
+        header h1:hover{
+            color: rgb(217, 255, 0);
+        }
+        ul{
+            background-color: indigo;
+            width: 200px;
+            float: right;
+        }
+        li a{
+            display: block;
+            color: hotpink;
+            text-decoration: none;
+            padding: 5px;
+        }
+        li a:hover{
+            color: khaki;
+            background-color: lightcoral;
+        }
+        body{
+            background-image: url("background-image.gif");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-color: rgb(0, 0, 0);
+            
+        }
+       
+        img{
+               float: left;
+               width: 400px;
+               height: 150px;
+
+        }
+        form{
+            position: relative;
+            top: 100px;
+        }
+        input[type=text]:focus{
+            background-color: rgb(0, 0, 0);
+        }
+        input[type=number]:focus{
+            background-color: rgb(0, 0, 0);
+        }
+        input[type=email]:focus{
+            background-color: rgb(0, 0, 0);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="website-logo">
+   <h1 style="padding-top: 50px;"><span style="color: lightpink;">welcome to</span> <span style="color: rgb(248, 172, 100);">scientific gym</span></h1>
+   
+</header>
+<aside>
+    <ul>
+        <li><a href="#home" target="_blank">Home</a></li>
+        <li><a href="#aboutus" target="_blank">About Us</a></li>
+        <li><a href="#fitnesscalculator" target="_blank">Fitness-Calcultor</a></li>
+        <li><a href="#contact us" target="_blank">Contact Us</a></li>
+    </ul>
+</aside>
+<div>
+     <form>
+    <h1 style="color: bisque; position: relative; right: 400px;">We'll contact you using this INFO.</h1>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" autofocus autocomplete="on" placeholder="Code with harry"><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" autocomplete="on" placeholder="xyz@gmail.com"><br>
+    <label for="phonenumber" aria-autocomplete="on">Phone Number</label><br>
+    <input type="number" id="phonenumber" placeholder="12345567890"><br>
+    <label for="location">Where do you live</label><br>
+    <select id="location">
+        <option value="india">India</option>
+        <option value="outsideindia">Outside-India</option>
+    </select><br>
+    <label for="weight">Where does your weight lies in kilo</label><br>
+    <select id="weight">
+        <option value="below 40">Below 40</option>
+        <option value="40 to 60">40-60</option>
+        <option value="60 to 80">60-80</option>
+        <option value="above 80">Above 80</option>
+    </select><br>
+    <label for="height">Where does your height lies in centimeter</label><br>
+    <select id="height">
+    <option value="below 130">Below 130</option>
+    <option value="130-150">130-150</option>
+    <option value="150-170">150-170</option>
+    <option value="above 170">Above 170</option>
+    </select><br>
+    <label for="about">Any disease or physical disability</label><br><br>
+    <textarea id="about" cols="30" rows="10"></textarea><br>
+    <input type="image" src="submit.png" alt="submit" width="100" height="50">
+     </form>
+</div>
+</form>
+</body>
+</html>

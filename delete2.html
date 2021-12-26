@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+</head>
+<style>
+    .container{
+        border: 2px solid black;
+        height: 700px;
+        display: flex;
+    }
+    #box{
+        margin: 15px;
+        width: 30%;
+        height: 100px;
+    }
+    
+    .box1{
+        background-color: rgb(218, 92, 92);
+    }
+    .box2{
+        background-color: rgb(149, 206, 84);
+    }
+    .box3{
+        background-color: rgb(20, 200, 216);
+    }
+    div .box :nth-child(2){
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <div class="container">
+        <div id="box" class="box1">iphone</div>
+        <div id="box" class="box2">laptop</div>
+        <div id="box" class="box3">tablet</div>
+    </div>
+</body>
+</html>

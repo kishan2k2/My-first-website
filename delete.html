@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>z index?</title>
+  </head>
+  <style>
+    .container {
+      width: 100%;
+      height: 300px;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: row;
+      /* flex-direction: column-reverse; */
+      flex-wrap: wrap;
+    }
+    .item {
+      width: 100px;
+      height: 50px;
+      font-size: large;
+      justify-content: center;
+      align-content: center;
+      margin: 20px;
+      padding: 10px;
+      border: 2px solid black;
+    }
+    #item1 {
+      background-color: red;
+    }
+    #item2 {
+      background-color: greenyellow;
+    }
+    #item3 {
+      background-color: hotpink;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>this is container</h1>
+      <div class="item" id="item1">item1</div>
+      <div class="item" id="item2">item 2</div>
+      <div class="item" id="item3">item 3</div>
+    </div>
+  </body>
+</html>
